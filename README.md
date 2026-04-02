@@ -1,16 +1,34 @@
-# React + Vite
+# HomeFirst — Self-Representation Home Buying
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real estate web application built with React, Vite, and Tailwind CSS, designed to help regular people navigate the home buying process without needing a real estate agent.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Property Listings** — Browse 10 sample properties with search by location/keyword, filtering by price range, beds, baths, and property type, plus sort options
+- **Property Detail** — Image gallery, full property details, neighborhood walkability scores, map link to Google Maps, embedded mortgage calculator, make-an-offer modal, and self-representation tips
+- **Mortgage Calculator** — Estimate monthly payments including principal & interest, property taxes, home insurance, and PMI with adjustable inputs
+- **Home Buying Guide** — 8-step interactive accordion guide, progress-tracked checklist, and negotiation strategy tips
+- **Responsive Design** — Mobile-friendly with hamburger navigation
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React 19](https://react.dev/) + [Vite](https://vite.dev/)
+- [Tailwind CSS v3](https://tailwindcss.com/)
+- [React Router v7](https://reactrouter.com/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Disclaimer
+
+For informational purposes only. HomeFirst is not a licensed real estate brokerage. Always consult a licensed real estate attorney when reviewing contracts.
